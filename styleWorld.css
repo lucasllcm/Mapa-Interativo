@@ -2,6 +2,7 @@ body{
   margin: 0;
   padding: 0;
   background: white;
+  text-align: center;
 }
 
 svg path{
@@ -17,4 +18,3 @@ svg path:hover{
   cursor: pointer;
   
 }
-
