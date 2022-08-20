@@ -26,6 +26,9 @@ body{
   background: #131219;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
 }
 
 svg path{
@@ -44,4 +47,18 @@ svg path:hover{
 
 .imagem{
   background: linear-gradient(72deg, #568fda 1%, #00002e 99%);
+  border: 4px solid rgb(7, 7, 7);
+  border-radius: 300px;
+  height: 520px;
+  width: 1200px;
+  transform: translate(5%, 20%);
+}
+
+.button {
+  text-align: center;
+  font-size: 1em;
+  color: #eee;
+  line-height: 40px;
+  z-index: 40;
+  position: absolute;
 }
