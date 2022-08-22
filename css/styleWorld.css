@@ -51,13 +51,13 @@ svg path:hover{
   
 }
 
-.imagem{
+.mapa{
   background: linear-gradient(72deg, #568fda 1%, #00002e 99%);
   border: 4px solid rgb(7, 7, 7);
   border-radius: 300px;
-  height: 520px;
-  width: 1200px;
-  transform: translate(5%, 20%);
+  height: 480px;
+  width: 1100px;
+  transform: translate(12%, 0%);
 }
 
 .button {
