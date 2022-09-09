@@ -11,7 +11,6 @@
   width: 2px;
 }
 
-
 *::-webkit-scrollbar-track {
   background: #131219;
 }
@@ -41,14 +40,14 @@ body{
 
 svg path{
   fill: gray;
-  stroke: rgb(4, 1, 1);
+  stroke: rgb(253, 252, 252);
   stroke-width: 1;
 }
 
 svg path:hover{
-  fill: rgb(173, 12, 12);
+  fill: rgb(240, 236, 236);
   transition: 0.6s;
-  stroke: rgb(173, 12, 12);
+  stroke: rgb(243, 240, 240);
   cursor: pointer;
   
 }
@@ -118,7 +117,13 @@ svg path:hover{
 li.header-menu-item a {
   display: inline-block;
   padding: 10px;
-  color: #bbb
+  color: rgb(253, 253, 250)
+}
+
+a {
+  background-color: transparent;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .header-menu-item-mask {
@@ -137,7 +142,12 @@ li.header-menu-item a {
 
 li.header-menu-item {
   float: right;
-  margin: 0 .4vw
+  margin: 0 .8vw;
+  margin-top: 0px;
+  margin-right: 0.8vw;
+  margin-bottom: 0px;
+  margin-left: 0.4vw;
+
 }
 
 .hero-context {
@@ -153,4 +163,422 @@ li.header-menu-item {
 
 #header {
   text-transform: uppercase;
+}
+
+#AF{
+  fill: rgb(10, 126, 10);
+}
+
+.Angola{
+  fill: #5C4033;
+}
+
+#AL{
+  fill: rgb(10, 126, 10);
+}
+
+#AE{
+  fill: rgb(10, 126, 10);
+}
+
+
+
+.Argentina{
+  fill: #5c065f;
+}
+
+#AM {
+  fill: #07c2b9;
+}
+
+.Australia{
+  fill: rgb(3, 5, 145);
+}
+
+#AT{
+  fill: rgb(3, 5, 145);
+}
+
+.Azerbaijan{
+  fill: rgb(51, 161, 51);
+}
+
+#BI{
+  fill: #5C4033;
+}
+
+#BE{
+  fill: rgb(3, 5, 145);
+}
+
+#BJ{
+  fill: #5C4033;
+}
+
+#BF{
+  fill: rgb(10, 126, 10);
+}
+
+#BD{
+  fill: rgb(10, 126, 10);
+}
+
+#BG{
+  fill: #07c2b9;
+}
+
+#BA{
+  fill: #07c2b9;
+}
+
+#BY{
+  fill: #07c2b9;
+}
+
+#BZ{
+  fill: #bba5bb;
+}
+
+#BO{
+  fill: #5c065f;
+}
+
+#BR {
+  fill: #5c065f;
+}
+
+#BN{
+  fill: rgb(10, 126, 10);
+}
+
+#BT{
+  fill: #c2bf07;
+}
+
+#BW{
+  fill: #5C4033;
+}
+
+#CF{
+  fill: #5C4033;
+}
+
+.Canada{
+  fill: rgb(3, 5, 145);
+}
+
+#CH{
+  fill: rgb(3, 5, 145);
+}
+
+.China{
+  fill: rgb(124, 4, 4);
+}
+
+#CI{
+  fill: #5C4033;
+}
+
+#CM{
+  fill: #5C4033;
+}
+
+#CD{
+  fill: #5C4033;
+}
+
+#CG{
+  fill: #5C4033;
+}
+
+#CO{
+  fill: #5c065f;
+}
+
+#CR{
+  fill: #5c065f;
+}
+
+#CU{
+  fill: #5c065f;
+}
+
+#CZ{
+  fill: rgb(3, 5, 145);
+}
+
+#DE{
+  fill: rgb(3, 5, 145);
+}
+
+#DJ{
+  fill: rgb(10, 126, 10);
+}
+
+.Denmark{
+  fill: rgb(3, 5, 145);
+}
+
+#DO{
+  fill: #5c065f;
+}
+
+#DZ{
+  fill: rgb(10, 126, 10);
+}
+
+#EC{
+  fill: #5c065f;
+}
+
+#EG{
+  fill: rgb(10, 126, 10);
+}
+
+#ER{
+  fill: rgb(10, 126, 10);
+}
+
+#EE{
+  fill: rgb(3, 5, 145);
+}
+
+#ET{
+  fill: #94654f;
+}
+
+#FI{
+  fill: rgb(3, 5, 145);
+}
+
+#GA{
+  fill: #5C4033;
+}
+
+.United-Kingdom{
+  fill: rgb(3, 5, 145);
+}
+
+#GE{
+  fill: #07c2b9;
+}
+
+#GH{
+  fill: #5C4033;
+}
+
+#GN{
+  fill: rgb(10, 126, 10);
+}
+
+#GM{
+  fill: rgb(10, 126, 10);
+}
+
+#GW{
+  fill: #5C4033;
+}
+
+#GQ{
+  fill: #5C4033;
+}
+
+.Greece{
+  fill: rgb(3, 5, 145);
+}
+
+#GL{
+  fill: rgb(3, 5, 145);
+}
+
+#GT{
+  fill: #5c065f;
+}
+
+#GY{
+  fill: #bba5bb;
+}
+
+#HN{
+  fill: #5c065f;
+}
+
+#HR{
+  fill: rgb(3, 5, 145);
+}
+
+#HT{
+  fill: #bba5bb;
+}
+
+#HU{
+  fill: rgb(3, 5, 145);
+}
+
+.Indonesia{
+  fill: rgb(10, 126, 10);
+}
+
+#IN{
+  fill: rgb(255, 153, 0);
+}
+
+#IE{
+  fill: rgb(3, 5, 145);
+}
+
+#IR{
+  fill: rgb(51, 161, 51);
+}
+
+#IQ{
+  fill: rgb(10, 126, 10);
+}
+
+#IS{
+  fill: rgb(3, 5, 145);
+}
+
+#IL{
+  fill: rgb(3, 5, 145);
+}
+
+.Italy{
+  fill: rgb(3, 5, 145);
+}
+
+#JM{
+  fill: #bba5bb;
+}
+
+#JO{
+  fill: rgb(10, 126, 10);
+}
+
+.Japan{
+  fill: rgb(240, 47, 47);
+}
+
+#KZ{
+  fill: #07c2b9;
+}
+
+#KE{
+  fill: #5c4033;
+}
+
+#KG{
+  fill: rgb(1, 126, 10);
+}
+
+#KH{
+  fill: #c2bf07;
+}
+
+#KR{
+  fill: rgb(124, 4, 4);
+}
+
+#KW{
+  fill: rgb(10, 126, 10);
+}
+
+#LA{
+  fill: #c2bf07;
+}
+
+#LB{
+  fill: rgb(1, 126, 10);
+}
+
+#LR{
+  fill: #5c4033;
+}
+
+#LY{
+  fill: rgb(10, 126, 10);
+}
+
+#LK{
+  fill: #c2bf07;
+}
+
+#LS{
+  fill: #5c4033;
+}
+
+#LT{
+  fill: rgb(3, 5, 145);
+}
+
+#LU{
+  fill: rgb(3, 5, 145);
+}
+
+#MA{
+  fill: rgb(10, 126, 10);
+}
+
+#MD{
+  fill: #07c2b9;
+}
+
+#MG{
+  fill: #5c4033;
+}
+
+#MX{
+  fill: #5c065f;
+}
+
+#MK{
+  fill: #07c2b9;
+}
+
+#ML{
+  fill: rgb(10, 126, 10);
+}
+
+#MM{
+  fill: #c2bf07;
+}
+
+#ME{
+  fill: #07c2b9;
+}
+
+#MN{
+  fill: #c2bf07;
+}
+
+#MZ{
+  fill: #5c4033;
+}
+
+#MR{
+  fill: rgb(10, 126, 10);
+}
+
+#MW{
+  fill: #5c4033;
+}
+
+.Malaysia{
+  fill: rgb(10, 126, 10);
+}
+
+#NA{
+  fill: #5c4033;
+}
+
+#NE{
+  fill: rgb(10, 126, 10);
+}
+
+#NG{
+  fill: #5c4033;
+}
+
+#NI{
+  fill: #5c065f;
 }
