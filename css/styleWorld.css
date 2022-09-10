@@ -31,7 +31,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: #181818;
+  background: #2d2c2c;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   letter-spacing: 0;
@@ -52,13 +52,16 @@ svg path:hover{
   
 }
 
-.mapa{
+#capture{
   background: linear-gradient(72deg, #568fda 1%, #00002e 99%);
-  border: 4px solid rgb(7, 7, 7);
-  border-radius: 300px;
-  height: 480px;
-  width: 1100px;
-  transform: translate(12%, 0%);
+  height: 800px;
+  width: 1530px;
+  transform: translate(-1%, 0%);
+}
+
+#map{
+  height: 600px;
+  transform: translate(1%, 20%);
 }
 
 .button {
@@ -69,10 +72,10 @@ svg path:hover{
   z-index: 40;
   position: absolute;
 }
-.title{
+#title{
   text-align: center;
   color: #a59f9f;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .cards{
@@ -100,23 +103,24 @@ svg path:hover{
 
 #header {
   position: fixed;
-  top: 60px;
+  top: 0px;
   width: 100%;
   z-index: 2500;
   font-size: 12px;
-  letter-spacing: .1em
+  letter-spacing: .1em;
+  background: linear-gradient(72deg, #201720 1%, #00003a 99%);
 }
 
 #header-menu {
   float: right;
   margin: 0;
   padding: 0;
-  text-align: center
+  text-align: center;
 }
 
 li.header-menu-item a {
   display: inline-block;
-  padding: 10px;
+  padding: 20px;
   color: rgb(253, 253, 250)
 }
 
@@ -127,7 +131,7 @@ a {
 }
 
 .header-menu-item-mask {
-  overflow: hidden
+  overflow: hidden;
 }
 
 .header-item::after {
@@ -137,7 +141,7 @@ a {
   width: 1.5em;
   height: 2px;
   transform-origin: 0 0;
-  transform: scale3d(0,1,1)
+  transform: scale3d(0,1,1);
 }
 
 li.header-menu-item {
@@ -159,11 +163,18 @@ li.header-menu-item {
 
 #header-logo {
   padding-left: 60px;
+  color: #f8f6f8;
 }
 
 #header {
   text-transform: uppercase;
 }
+
+/*
+***********************************************************************************************
+*                                           países                                            *
+***********************************************************************************************
+*/
 
 #AF{
   fill: rgb(10, 126, 10);
@@ -174,14 +185,12 @@ li.header-menu-item {
 }
 
 #AL{
-  fill: rgb(10, 126, 10);
+  fill: rgb(124, 247, 43);
 }
 
 #AE{
   fill: rgb(10, 126, 10);
 }
-
-
 
 .Argentina{
   fill: #5c065f;
@@ -581,4 +590,332 @@ li.header-menu-item {
 
 #NI{
   fill: #5c065f;
+}
+
+.Norway {
+  fill: rgb(3, 5, 145);
+}
+
+#NP{
+  fill: rgb(255, 153, 0);
+}
+
+.Oman{
+  fill: rgb(1, 126, 10);
+}
+
+#PK{
+  fill: rgb(1, 126, 10);
+}
+
+#PA{
+  fill: #5c065f;
+}
+
+#PE{
+  fill: #5c065f;
+}
+
+.Philippines{
+  fill: red;
+}
+
+.Papua-New-Guinea{
+  fill: rgb(3, 5, 145);
+}
+
+#PL{
+  fill: rgb(3, 5, 145);
+}
+
+#KP{
+  fill: rgb(124, 4, 4);
+}
+
+#PY{
+  fill: #5c065f;
+}
+
+#RO{
+  fill: #07c2b9;
+}
+
+#RW{
+  fill: #5c4033;
+}
+
+#EH{
+  fill: rgb(1, 126, 10);
+}
+
+#SA{
+  fill: rgb(1, 126, 10);
+}
+
+#SD{
+  fill: rgb(1, 126, 10);
+}
+
+#SS{
+  fill: #5c4033;
+}
+
+#SN{
+  fill: rgb(1, 126, 10);
+}
+
+#SL{
+  fill: rgb(1, 126, 10);
+}
+
+#SV{
+  fill: #5c065f;
+}
+
+#RS{
+  fill: #07c2b9;
+}
+
+#SR{
+  fill: #bba5bb;
+}
+
+#SK{
+  fill: rgb(3, 5, 145);
+}
+
+#SI{
+  fill: rgb(3, 5, 145);
+}
+
+#SE{
+  fill: rgb(3, 5, 145);
+}
+
+#SZ{
+  fill: #5c4033;
+}
+
+#SY{
+  fill: rgb(1, 126, 10);
+}
+
+#TD{
+  fill: rgb(1, 126, 10);
+}
+
+#TG{
+  fill: #5c4033;
+}
+
+#TD{
+  fill: rgb(1, 126, 10);
+}
+
+#TJ{
+  fill: rgb(1, 126, 10);
+}
+
+#TM{
+  fill: rgb(1, 126, 10);
+}
+
+#TL{
+  fill: #c2bf07;
+}
+
+#TN{
+  fill: rgb(1, 126, 10);
+}
+
+.Turkey{
+  fill: rgb(124, 247, 43);
+}
+
+#TW{
+  fill: rgb(124, 4, 4);
+}
+
+#TZ{
+  fill: #5C4033;
+}
+
+#UG{
+  fill: #5C4033;
+}
+
+#UA{
+  fill: #07c2b9;
+}
+
+#UY{
+  fill: #5c065f;
+}
+
+#UZ{
+  fill: rgb(1, 126, 10);
+}
+
+#VE{
+  fill: #5c065f;
+}
+
+#VN{
+  fill: rgb(124, 4, 4);
+}
+
+#YE{
+  fill: rgb(1, 126, 10);
+}
+
+#ZM{
+  fill: #5C4033;
+}
+
+#ZW{
+  fill: #5C4033;
+}
+
+#SO{
+  fill: rgb(1, 126, 10);
+}
+
+#XK{
+  fill: #07c2b9;
+}
+
+#ZA{
+  fill: #5C4033;
+}
+
+.New-Zealand{
+  fill: rgb(3, 5, 145);
+}
+
+.Chile{
+  fill: #5c065f;
+}
+
+#NL{
+  fill: rgb(3, 5, 145);
+}
+
+#PT{
+  fill: rgb(3, 5, 145);
+}
+
+.Russian-Federation{
+  fill: #07c2b9;
+}
+
+#ES{
+  fill: rgb(3, 5, 145);
+}
+
+.France{
+  fill: rgb(3, 5, 145);
+}
+
+.United-States{
+  fill: rgb(3, 5, 145);
+}
+
+#GF{
+  fill: rgb(3, 5, 145);
+}
+
+#AW{
+  fill: #5c065f;
+}
+
+#AI{
+  fill: rgb(3, 5, 145);
+}
+
+.American-Samoa{
+  fill: rgb(3, 5, 145);
+}
+
+.Antigua-and-Barbuda{
+  fill: #5c065f;
+}
+
+#BH{
+  fill: rgb(1, 126, 10);
+}
+
+.Bahamas{
+  fill: #bba5bb;
+}
+
+#BL{
+  fill: #bba5bb;
+}
+
+#BM{
+  fill: #bba5bb;
+}
+
+#BB{
+  fill: #bba5bb;
+}
+
+.Comoros{
+  fill: #5C4033;
+}
+
+.Cape-Verde{
+  fill: #5C4033;
+}
+
+#CW{
+  fill: #5C4033;
+}
+
+.Cayman-Islands{
+  fill: rgb(3, 5, 145);
+}
+
+.Cyprus{
+  fill: rgb(1, 126, 10);
+}
+
+#DM{
+  fill: #5c065f;
+}
+
+.Falkland-Islands{
+  fill: rgb(3, 5, 145);
+}
+
+.Faeroe-Islands{
+  fill: rgb(3, 5, 145);
+}
+
+.Federated-States-of-Micronesia{
+  fill: rgb(3, 5, 145);
+}
+
+#GD{
+  fill: #5c065f;
+}
+
+.New-Caledonia{
+  fill: rgb(3, 5, 145);
+}
+
+.Solomon-Islands{
+  fill: rgb(3, 5, 145);
+}
+
+#LV{
+  fill: rgb(3, 5, 145);
+}
+
+#TH{
+  fill: #c2bf07;
+}
+
+#QA{
+  fill: rgb(1, 126, 10);
 }
