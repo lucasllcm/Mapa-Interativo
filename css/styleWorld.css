@@ -32,7 +32,7 @@ body{
   margin: 0;
   padding: 0;
   background: #2d2c2c;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
   font-size: 20px;
   letter-spacing: 0;
   line-height: 30px;
@@ -55,44 +55,15 @@ svg path:hover{
 #capture{
   background: linear-gradient(72deg, #568fda 1%, #00002e 99%);
   height: 800px;
-  width: 1530px;
-  transform: translate(-1%, 0%);
+  width: 1490px;
+  transform: translate(1%, 0%);
+  border: 2px solid rgb(9, 8, 7);
+  border-radius: 30px;
 }
 
 #map{
   height: 600px;
   transform: translate(1%, 20%);
-}
-
-.button {
-  text-align: center;
-  font-size: 1em;
-  color: #eee;
-  line-height: 40px;
-  z-index: 40;
-  position: absolute;
-}
-#title{
-  text-align: center;
-  color: #a59f9f;
-  margin-top: 200px;
-}
-
-.cards{
-  max-width: 900px;
-  margin: 0 auto;
-  margin-top: 100px;
-}
-
-.card{
-  color: #a59f9f;
-  padding: 30px;
-  border-radius: 10px;
-  border: 2px solid #a59f9f;
-}
-
-.card:not(:first-child){
-  margin-top: 20px;
 }
 
 #menu,#menu-content {
@@ -106,7 +77,7 @@ svg path:hover{
   top: 0px;
   width: 100%;
   z-index: 2500;
-  font-size: 12px;
+  font-size: 15px;
   letter-spacing: .1em;
   background: linear-gradient(72deg, #201720 1%, #00003a 99%);
 }
@@ -121,7 +92,7 @@ svg path:hover{
 li.header-menu-item a {
   display: inline-block;
   padding: 20px;
-  color: rgb(253, 253, 250)
+  color: rgb(253, 253, 250);
 }
 
 a {
@@ -132,6 +103,7 @@ a {
 
 .header-menu-item-mask {
   overflow: hidden;
+  transform: translateY(-50%);
 }
 
 .header-item::after {
@@ -151,7 +123,7 @@ li.header-menu-item {
   margin-right: 0.8vw;
   margin-bottom: 0px;
   margin-left: 0.4vw;
-
+  list-style-type: none;
 }
 
 .hero-context {
@@ -164,10 +136,161 @@ li.header-menu-item {
 #header-logo {
   padding-left: 60px;
   color: #f8f6f8;
+  padding-top: 2px;
+  transform: translateY(110%);
 }
 
 #header {
   text-transform: uppercase;
+}
+
+#Africana{
+  background-color: #5C4033;
+}
+
+#Budista{
+  background-color: #c2bf07;
+}
+
+#Cristã-Ortodoxa{
+  background-color: #07c2b9;
+}
+
+#Hindu{
+  background-color: rgb(255, 153, 0);
+}
+
+#Islâmica{
+  background-color: rgb(10, 126, 10);
+}
+
+#Japonesa{
+  background-color: rgb(192, 2, 2);
+}
+
+#Latino-americana{
+  background-color: #5c065f;
+}
+
+#Ocidental{
+  background-color: rgb(3, 5, 145);
+}
+
+#Sínica{
+  background-color: rgb(124, 4, 4);
+
+}
+
+#title{
+  text-align: center;
+  color: #f5f1f1;
+  margin-top: 200px;
+  text-transform: uppercase;
+}
+
+.cards{
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.card{
+  color: #030303;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #040404;
+  text-transform: uppercase;
+}
+
+.card:not(:first-child){
+  margin-top: 20px;
+}
+
+#mundi{
+  text-align: center;
+  color: #f5f1f1;
+  margin-top: 70px;
+  text-transform: uppercase;
+}
+
+.cores{
+  padding: 0;
+  margin: 0;
+  box-sizing: 5px;
+}
+
+#cores{
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.cores li {
+  cursor: pointer;
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+#cor1{
+  width: 90px;
+  height: 30px;
+  transform: translateX(155%);
+}
+
+#cor2{
+  width: 90px;
+  height: 30px;
+  transform: translateX(177%);
+}
+
+#cor3{
+  width: 170px;
+  height: 30px;
+  transform: translateX(107%);
+}
+
+#cor4{
+  width: 80px;
+  height: 30px;
+  transform: translateX(253%);
+}
+
+#cor5{
+  width: 90px;
+  height: 30px;
+  transform: translateX(245%);
+}
+
+#cor6{
+  width: 100px;
+  height: 30px;
+  transform: translateX(235%);
+}
+
+#cor7{
+  width: 170px;
+  height: 30px;
+  transform: translateX(147%);
+}
+
+#cor8{
+  width: 100px;
+  height: 30px;
+  transform: translateX(270%);
+}
+
+#cor9{
+  width: 70px;
+  height: 30px;
+  transform: translateX(411%);
+}
+
+footer{
+  margin-top: 70px;
+  padding: 80px;
+  background: linear-gradient(72deg, #201720 1%, #00003a 99%);
 }
 
 /*
@@ -465,7 +588,7 @@ li.header-menu-item {
 }
 
 .Japan{
-  fill: rgb(240, 47, 47);
+  fill: rgb(192, 2, 2);
 }
 
 #KZ{
